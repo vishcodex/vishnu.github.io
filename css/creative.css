@@ -150,14 +150,16 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
+  text-align: center;
+  color: white;
+}
+.background-image{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
-  text-align: center;
-  color: white;
+  right: 0;
 }
 header .header-content {
   position: relative;

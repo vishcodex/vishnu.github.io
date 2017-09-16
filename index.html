@@ -26,7 +26,10 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
 
 	<!-- Timeline CSS -->
     <link href="css/timeline.css" rel="stylesheet">
@@ -83,13 +86,14 @@
     </nav>
 
     <header>
+        <div class="background-image"></div>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Data enthusiast</h1>
+                <h1 id="homeHeading">I AM <span id="homeHeading-text">DEVELOPER</span></h1>
                 <hr>
                 <div class="header-content-inner-in">
-                      <p class="text">Versatile, creative and self-driven technology enthusiast with almost 5 years of experience in IT and freelance web development. And a new flair for Data science and Machine Learning.</p>
-				              <p class="text">I bring vigor and tenacious curiosity to all my endeavors.</p>
+                    <p class="text">Versatile, creative and self-driven technology enthusiast with almost 5 years of experience in IT and freelance web development. And a new flair for Data science and Machine Learning.</p>
+				    <p class="text">I bring vigor and tenacious curiosity to all my endeavors.</p>
                 </div>      
                 <a href="#about" class="btn btn-circle page-scroll">
 				<i class="fa fa-angle-double-down animated"></i>
@@ -160,7 +164,7 @@
 			</div>
 		</div>
 	</section>
-
+    <!--Education-->
     <section id="education">
         <div class="container">
             <div class="row">
@@ -210,44 +214,42 @@
         </div>
     </section>
 
+    <!-- Timeline -->
 	<section class="no-padding" id="timeline">
-		<div class="container">
-			<header class="page-header">
-			<h1>Timeline</h1>
-			</header>
+		<div class="container-fluid">
 
 	<ul class="timeline">
-		<li><div class="tldate">Dec 2017</div></li>
+        <!-- <li><div class="tldate">Dec 2017</div></li> -->
 
-		<li>
-			<div class="tl-circ"></div>
-			<div class="timeline-panel">
-				<div class="tl-heading">
-					<h4>Expected Graduation</h4>
-					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3 hours ago</small></p>
-				</div>
-				<div class="tl-body">
-					<p>MS in Information Systems, NJIT</p>
-				</div>
-			</div>
-		</li>
+        <li>
+            <div class="tl-circ"></div>
+            <div class="timeline-panel">
+                <div class="tl-heading">
+                    <h4>Expected Graduation</h4>
+                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> </small></p>
+                </div>
+                <div class="tl-body">
+                    <p>Going to be a NJIT graduate soon.</p>
+                </div>
+            </div>
+        </li>
 
-		<li class="timeline-inverted">
-			<div class="tl-circ"></div>
-				<div class="timeline-panel">
-					<div class="tl-heading">
-						<h4>Breaking into Spring!</h4>
-						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 4/07/2014</small></p>
-					</div>
-				<div class="tl-body">
-					<p>Hope the weather gets a bit nicer...</p>
-
-					<p>Y'know, with more sunlight.</p>
-				</div>
-			</div>
-		</li>
-
-		<li><div class="tldate">Sept 2016</div></li>
+        <li class="timeline-inverted">
+                <div class="tl-circ"></div>
+                    <div class="timeline-panel">
+                        <div class="tl-heading">
+                            <h4>Joins ADS Works</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 6/07/2017</small></p>
+                        </div>
+                    <div class="tl-body">
+                        <p>Web Developer Intern</p>
+    
+                        <p>GraphDati - </p>
+                        <p>IpOften.com - </p>
+                        <p>And occasional ping pong.</p>
+                    </div>
+                </div>
+            </li>
 
 		<li>
 			<div class="tl-circ"></div>
@@ -268,7 +270,7 @@
 					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 8/16/2016</small></p>
 				</div>
 				<div class="tl-body">
-					<p>Here you'll find some beautiful photography for your viewing pleasure, courtesy of <a href="http://lorempixel.com/">lorempixel</a>.</p>
+					<p>To pursue Masters in Information Systems.</p>
 
 					<p><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14089262_10153899261157183_8476537475803709901_n.jpg?oh=e910adadb1f907b0e42d30bf72d55ecf&oe=59421822" alt="lorem pixel"></p>
 				</div>
@@ -279,7 +281,21 @@
 			<div class="timeline-panel">
 				<div class="tl-heading">
 					<h4>Started at Mindtree Ltd</h4>
-					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/03/2014</small></p>
+					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2/03/2014</small></p>
+				</div>
+				<div class="tl-body">
+                    <p>Post as Senior Software Engineer.</p>
+                    <p>AOL was the client. Literally the best team I have worked for thus far.</p>
+				</div>
+			</div>
+		</li>
+
+		<li class="timeline-inverted">
+			<div class="tl-circ"></div>
+			<div class="timeline-panel">
+				<div class="tl-heading">
+					<h4>Left ITC Infotech Ltd.</h4>
+					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 01/31/2014</small></p>
 				</div>
 				<div class="tl-body">
 					<p></p>
@@ -287,40 +303,15 @@
 			</div>
 		</li>
 		<li>
-			<div class="timeline-panel noarrow">
-				<div class="tl-heading">
-					<h4>Secondary Timeline Box</h4>
-					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/01/2014</small></p>
-				</div>
-			<div class="tl-body">
-				<p>This might be a follow-up post with related info. Maybe we include some extra links, tweets, user comments, photos, etc.</p>
-			</div>
-			</div>
-		</li>
-
-		<li><div class="tldate">Feb 2014</div></li>
-
-		<li class="timeline-inverted">
 			<div class="tl-circ"></div>
 			<div class="timeline-panel">
 				<div class="tl-heading">
-					<h4>The Winter Months</h4>
-					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/23/2014</small></p>
+					<h4>Joined ITC Infotech Ltd.</h4>
+					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 09/11/2011</small></p>
 				</div>
 				<div class="tl-body">
-					<p>Gee time really flies when you're having fun.</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class="tl-circ"></div>
-			<div class="timeline-panel">
-				<div class="tl-heading">
-					<h4>Yeah we're pretty much done here</h4>
-					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/11/2014</small></p>
-				</div>
-				<div class="tl-body">
-					<p>Wasn't this fun though?</p>
+                    <p>Posted as Associate IT Consultant.</p>
+					<p>First corporate job and as a campus recruit.</p>
 				</div>
 			</div>
 		</li>
@@ -466,7 +457,7 @@
 						<a href="https://www.facebook.com/maheshmn" target="_blank"><i class="fa fa-facebook fa-3x sr-contact"></i></a>
 				</div>
 				<div class="col-lg-1 text-center">
-							<a href="https://www.instagram.com/mashmashnair/" target="_blank"><i class="fa fa-instagram fa-3x sr-contact"></i></a>
+							<a href="https://www.instagram.com/mash_nair/" target="_blank"><i class="fa fa-instagram fa-3x sr-contact"></i></a>
 				</div>
 				<div class="col-lg-1 text-center">
 							<a href="https://www.linkedin.com/in/maheshmnair" target="_blank"><i class="fa fa-linkedin-square fa-3x sr-contact"></i></a>
@@ -492,6 +483,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/custom.js"></script>
 
 </body>
 
