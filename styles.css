@@ -7,7 +7,7 @@ html, body, article, section{
 
 body {
     /* background-color: #f8f8ff; */
-    background-color: #242526;
+    background-color: black;
     overflow: hidden;
     font-family: Roboto, Helvetica, sans-serif;
 }
@@ -19,6 +19,24 @@ body {
 
 .scroll section {
     scroll-snap-align: start;
+}
+
+#bio {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .bio.wrapper,.skills.wrapper,.hobbies.wrapper  {
@@ -63,8 +81,12 @@ body {
     color: #f8f8ff;
 }
 
+/* .bio.wrapper {
+    background-color: #242526;
+} */
+
 .skills.wrapper {
-    background-color: black;
+    background-color: #262626;
 }
 
 .hobbies.wrapper {
@@ -72,15 +94,7 @@ body {
 }
 
 .skills.wrapper2, .hobbies.wrapper2 {
-    /* width: 90%; */
     max-width: 1000px;
-    /* margin-top: 50px; */
-    /* text-align: center; */
-    /* display: grid;
-    grid-template-columns: 330px 383px 330px;
-    grid-template-rows: 240px;
-    column-gap: 5px; */
-    /* row-gap: 15px; */
     /* height: calc(100vh - 100px); */
 }
 
@@ -107,9 +121,9 @@ body {
 .skills.card-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 328px 328px 328px;
+    grid-template-columns: 320px 320px 320px;
     grid-template-rows: 240px;
-    column-gap: 8px;
+    column-gap: 20px;
 }
 
 .skills.card {
